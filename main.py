@@ -20,7 +20,7 @@ global queen
 pawn = int(input("Exchange value for pawn: "))
 knight = int(input("Exchange value for knight: "))
 bishop = int(input("Exchange value for bishop: "))
-rook = int(input("Exchange value for rook: "))
+rook = int(input("Exchange value for rook; "))
 queen = int(input("Exchange value for queen: "))
 clear()
 print(Fore.LIGHTMAGENTA_EX + "Values intercepted!" + Fore.RESET)
@@ -83,3 +83,5 @@ if attack_center + attack_base == 30:
   print(Fore.GREEN + "Valid center and base attack" + Fore.RESET)
 else:
   print(Fore.RED + f"Invalid center and base attack, Center and Base Attack is equal to {attack_center+attack_base}")
+
+input("ENTER TO CLOSE >>> ")
